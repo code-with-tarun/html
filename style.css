@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+body
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.ico
+{
+    color: #3598dc!important;
+}
+.btn12
+{
+    border: none;
+    background-color: #3598dc;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.btn13
+{
+    border: none;
+    background-color: white;
+    
+    color: #3598dc;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid #3598dc;
+    transition: 0.5s;
+}
+.btn13:hover
+{
+    color: white;
+    background-color: #3598dc;
+    transition: 0.5s;
+}
+.culu
+{
+    color: #3598dc;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+nav{
+    box-shadow: -1px 4px 16px 0px rgb(205, 205, 205);
+}
+.gray{
+    color: #484848;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.comp
+{
+    width: 120px;
+    padding: 10px;
+    filter: grayscale(1);
+}
+.comp:hover
+{
+    filter: none;
+}
+
+.line{
+    height: 2px;
+    width: 60px;
+    background-color:#3598dc ;
+}
+/* animation */
+img.image1 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.image1 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.mybtn
+{
+    background-color: #3598dc;
+}
+.icons1
+{
+    width: 60px;
+    height: 60px;
+    background-color:  #3598dc;     
+}
+.serve
+{
+    box-shadow: 0px 0px 40px -30px rgba(0,0,0,0.75);
+}
+.coloring
+{
+    background-color: #262626;
+}
+
+
+
+
+/* animation section */
+
+
+
+
+
+.super-box {
+    width: 220px;
+   height: 220px;
+   display: flex;   
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: white;
+   border-radius: 20px;
+   box-shadow: 0px 0px 29px -20px rgba(0,0,0,0.75);
+}
+.bb {
+    width: 220px;
+    height: 240px; 
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+ }
+ 
+ .box {
+   position: absolute;
+   width: 220px;
+   height: 220px; 
+   display: flex;
+   /* justify-content: center;
+   align-items: center; */
+   /* flex-direction: column; */
+   border-radius: 20px;
+   overflow: hidden;
+   transition: box-shadow ease 1s;
+   margin-top: 30px;
+ }
+ 
+ .iconing {
+   position: relative;
+   margin-top: 8px;
+   transition: all 0.6s ease;
+   transition-delay: 0.32s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   padding: 20px;
+   background-color: #3598dc;
+
+ }
+i{
+    transition: 2s;
+    font-size: 30px !important;
+    color: white;
+    
+} 
+.icon_bg {
+   width: 70px;
+   height: 70px;
+   border-radius: 100%;
+   box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   background-color: #e2f0fb;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.5s ease;
+   transition-delay: 0.1s;
+   margin-left: -30px !important;
+   margin-top: 20px;
+   border: 2px solid white
+ }
+ 
+ .super-box:hover .box {
+    box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+    transition-delay: 0.32s;
+ }
+ 
+ .super-box:hover .icon_bg {
+    transform: translateY(52px) scale(8);
+    background-color: #3598dc;
+ }
+ 
+ .super-box:hover .iconing  {
+    transform: translateY(-5px) scale(1.4);
+           
+ }
+ .super-box:hover .iconing i{
+    color: white;
+    transition: 0.1s;
+ }
+
+ 
+ .text {
+   position: relative;
+   top: -32px;
+   width: 200px;
+   text-align: center;
+   transition: all 0.1s ease;
+   transition-delay: 0.32s;
+ }
+ 
+ .super-box:hover .text {
+   opacity: 0;
+    transform: translateY(-4px) scale(.8);
+ }
+ 
+ .box::after {
+   content: "Voluptatum deleniti atque corrupti quos doloreset quas molestias excepturi";
+   position: absolute;
+   width: 170px;
+   top: 130px;
+   left: 30px;
+   opacity: 0;
+   text-align: center;
+   justify-content: center;
+   font-size: 13px;
+   color: #f4f4f7;
+   line-height: 20px;
+   transition: all 0.3s ease;
+    transition-delay: 0.32s;
+ }
+
+ .super-box:hover .box::after {
+   opacity: 1;
+ }
